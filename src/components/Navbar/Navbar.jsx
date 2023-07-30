@@ -1,5 +1,6 @@
-import Sidebar from "../Sidebar/Sidebar";
 import "./Navbar.css";
+import Sidebar from "../Sidebar/Sidebar";
+import Logo from "../../assets/logo.jpg";
 
 const Navbar = ({ setCategory }) => {
   return (
@@ -8,13 +9,7 @@ const Navbar = ({ setCategory }) => {
         <div className="icon">
           <Sidebar setCategory={setCategory} />
         </div>
-        <img
-          style={{ cursor: "pointer" }}
-          src="https://assets.inshorts.com/website_assets/images/logo_inshorts.png"
-          // src={Logo}
-          alt=""
-          height="80%"
-        />
+        <img style={{ cursor: "pointer" }} src={Logo} alt="logo" height="80%" />
       </div>
     </>
   );
