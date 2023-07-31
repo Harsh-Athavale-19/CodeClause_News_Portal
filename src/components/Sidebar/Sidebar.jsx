@@ -11,6 +11,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import categories from "../../assets/categories";
+import PropTypes from "prop-types";
 
 const Sidebar = ({ setCategory }) => {
   const [state, setState] = React.useState({
@@ -85,3 +86,7 @@ const Sidebar = ({ setCategory }) => {
 };
 
 export default Sidebar;
+
+Sidebar.propTypes = {
+  setCategory: PropTypes.func,
+};

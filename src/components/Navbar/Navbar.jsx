@@ -1,4 +1,5 @@
 import "./Navbar.css";
+import PropTypes from "prop-types";
 import Sidebar from "../Sidebar/Sidebar";
 import Logo from "../../assets/logo.jpg";
 
@@ -16,3 +17,7 @@ const Navbar = ({ setCategory }) => {
 };
 
 export default Navbar;
+
+Navbar.propTypes = {
+  setCategory: PropTypes.func,
+};

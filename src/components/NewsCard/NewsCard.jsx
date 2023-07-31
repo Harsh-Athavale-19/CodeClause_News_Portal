@@ -1,4 +1,5 @@
 import No_Image from "../../assets/no-image.png";
+import PropTypes from "prop-types";
 import "./NewsCard.css";
 
 const NewsCard = ({ newsItem }) => {
@@ -7,7 +8,6 @@ const NewsCard = ({ newsItem }) => {
   var date = fulldate.toString().split(" "); // ["Sat", "Jan", "09", "2021", "17:45:30", "GMT+0530"]
   const hour = parseInt(date[4].substring(0, 2)); //
   const time = hour > 12 ? true : false;
-
   return (
     <>
       <div className="newsCard">
@@ -49,3 +49,7 @@ const NewsCard = ({ newsItem }) => {
 };
 
 export default NewsCard;
+
+NewsCard.propTypes = {
+  newsItem: PropTypes.object,
+};

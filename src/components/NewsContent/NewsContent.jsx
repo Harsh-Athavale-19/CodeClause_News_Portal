@@ -1,6 +1,7 @@
 import Container from "@mui/material/Container";
-import "./NewsContent.css";
 import NewsCard from "../NewsCard/NewsCard";
+import PropTypes from "prop-types";
+import "./NewsContent.css";
 
 const NewsContent = ({ newsArray, newsResults, loadMore, setLoadMore }) => {
   return (
@@ -26,3 +27,10 @@ const NewsContent = ({ newsArray, newsResults, loadMore, setLoadMore }) => {
 };
 
 export default NewsContent;
+
+NewsContent.propTypes = {
+  newsArray: PropTypes.array,
+  newsResults: PropTypes.number,
+  loadMore: PropTypes.number,
+  setLoadMore: PropTypes.func,
+};
