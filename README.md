@@ -14,7 +14,12 @@ This News Portal App is created as part of Internship Task 3 for CodeClause. Thi
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+#### Landing Page
+![News App 1](https://github.com/Harsh-Athavale-19/CodeClause_News_Portal/assets/73172570/a7aa4e75-bc6f-4f4f-801c-9c20989ce174)
+
+
+#### Sidebar
+![News App 2](https://github.com/Harsh-Athavale-19/CodeClause_News_Portal/assets/73172570/7118e30a-2972-48a7-9d27-8df6eda490ba)
 
 ## Contributions
 
